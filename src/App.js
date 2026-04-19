@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Banner from './components/Banner';
 import Formulario from './components/Formulario';
 import Time from './components/Time';
 import Rodape from './components/Rodape';
+
 function App() {
 
   const times = [
@@ -56,6 +58,7 @@ function App() {
       />
       )}
       <Rodape/>
+      <Analytics />
     </div>
   );
 }
