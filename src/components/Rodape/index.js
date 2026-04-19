@@ -5,24 +5,24 @@ const Rodape = () => {
         <section>
             <ul>
                 <li>
-                    <a href="facebook.com" target="_blank">
-                        <img src="/imgs/fb.png" alt="" />
+                    <a href="https://github.com/vfluyu/P-P/" target="_blank">
+                        <img className='img' src="/imgs/github.png" alt="My GitHub" />
                     </a>
                 </li>
                 <li>
                     <a href="twitter.com" target="_blank">
-                        <img src="/imgs/tw.png" alt="" />
+                        <img className='img' src="/imgs/tw.png" alt="" />
                     </a>
                 </li>
                 <li>
                     <a href="instagram.com" target="_blank">
-                        <img src="/imgs/ig.png" alt="" />
+                        <img className='img' src="/imgs/ig.png" alt="" />
                     </a>
                 </li>
             </ul>
         </section>
         <section>
-            <img src="/imgs/logo.png" alt="" />
+            <img className='img2' src="/imgs/logo.png" alt="" />
         </section>
         <section>
             <p>
